@@ -40,7 +40,7 @@ export function Web3Provider({ children }: { children: React.ReactNode }) {
       const provider = new ethers.BrowserProvider(window.ethereum);
       const network = await provider.getNetwork();
       
-      if (network.chainId !== 11155111n) { // Sepolia chainId
+      if (network.chainId !== 1n) { // Sepolia chainId
         toast.error('Please connect to Sepolia Testnet!');
         return;
       }
