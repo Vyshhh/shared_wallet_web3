@@ -1,8 +1,8 @@
-# EthTrust - Shared Wallet DApp 💳
+# EthTrust - Shared Wallet DApp 
 
 A decentralized application (DApp) built on Ethereum that enables shared wallet management with spending limits for multiple members. Perfect for families, teams, or organizations that need controlled access to shared funds.
 
-## ✨ Features
+##  Features
 
 - **Controller Management**: Designated controller can manage all wallet members
 - **Member Limits**: Set individual spending limits for each member
@@ -11,7 +11,7 @@ A decentralized application (DApp) built on Ethereum that enables shared wallet 
 - **Modern UI**: Clean, responsive interface built with React and Tailwind CSS
 - **Web3 Integration**: Seamless MetaMask wallet connection
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 ├── src/
@@ -34,7 +34,7 @@ A decentralized application (DApp) built on Ethereum that enables shared wallet 
 └── vite.config.ts
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -64,7 +64,7 @@ A decentralized application (DApp) built on Ethereum that enables shared wallet 
 4. **Open your browser**
    Navigate to `http://localhost:5173`
 
-## 📋 Smart Contract Functions
+##  Smart Contract Functions
 
 ### Controller Functions
 - `addMember(address, limit)` - Add a new member with spending limit
@@ -80,7 +80,7 @@ A decentralized application (DApp) built on Ethereum that enables shared wallet 
 - `totalMembers()` - Get total number of members
 - `members(address)` - Get member information
 
-## 🎯 Usage
+##  Usage
 
 ### For Controllers
 
@@ -97,7 +97,7 @@ A decentralized application (DApp) built on Ethereum that enables shared wallet 
 3. **Make Withdrawals**: Withdraw funds within your allocated limit
 4. **Track Spending**: Monitor your spending history
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Frontend**: React 18, TypeScript, Vite
 - **Styling**: Tailwind CSS
@@ -115,7 +115,7 @@ A decentralized application (DApp) built on Ethereum that enables shared wallet 
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
 
-## 🏭 Deployment
+##  Deployment
 
 ### Smart Contract Deployment
 
@@ -132,7 +132,7 @@ A decentralized application (DApp) built on Ethereum that enables shared wallet 
 
 2. **Deploy to your hosting platform** (Vercel, Netlify, etc.)
 
-## 🔐 Security Features
+##  Security Features
 
 - **Access Control**: Only controller can manage members
 - **Spending Limits**: Automatic enforcement of individual limits
@@ -140,7 +140,7 @@ A decentralized application (DApp) built on Ethereum that enables shared wallet 
 - **Address Validation**: Prevents invalid addresses
 - **Member Verification**: Only active members can make withdrawals
 
-## 🧪 Testing
+##  Testing
 
 ### Local Testing
 
@@ -157,7 +157,7 @@ A decentralized application (DApp) built on Ethereum that enables shared wallet 
 - Attempting withdrawals beyond limits
 - Contract funding and balance management
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -165,15 +165,15 @@ A decentralized application (DApp) built on Ethereum that enables shared wallet 
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🚨 Disclaimer
+##  Disclaimer
 
 This is educational/demonstration software. Use at your own risk. Always audit smart contracts before deploying to mainnet with real funds.
 
-## 📞 Support
+##  Support
 
 For questions and support, please open an issue in the GitHub repository.
 
